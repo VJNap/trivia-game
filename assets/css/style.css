@@ -28,3 +28,8 @@ body {
  .textChoices {
      text-align: center;
  }
+
+label {
+    width: auto;
+    display: inline;
+}
