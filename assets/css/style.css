@@ -1,0 +1,27 @@
+body {
+    background-image: url('../images/cookingflames.png');
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container {
+    background: coral;
+    opacity: .9;
+}
+
+.head {
+    text-align: center;
+}
+
+.subHead {
+    text-align: center;
+}
+
+.timer {
+    text-align: center;
+    font-weight: bold;
+}
+
+.question {
+    text-align: center;
+    font-weight: bold;
+}
