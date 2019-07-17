@@ -10,7 +10,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script rel="javascript" type="text/javascript" href="javascript/app.js"></script>
+    <script rel="javascript" type="text/javascript" src="assets/javascript/app.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -53,9 +53,15 @@
                 <p class="question">What is another name for a chef knife?</p>
                 
                 <div class="row textChoices">
-                    <input class="col-lg-3" type="radio" id="headKnife" name="radio1" value="headKnife"/><label for="headKnife">Head Knife</label>
-                    <input class="col-lg-3" type="radio" id="frenchKnife" name="radio1" value="frenchKnife"/><label for="frenchKnife">French Knife</label>
-                    <input class="col-lg-3" type="radio" id="choppingKnife" name="radio1" value="choppingKnife"/><label for="choppingKnife">Chopping Knife</label>
+                    <label for="headKnife" class="radio-inline">
+                        <input type="radio" id="headKnife" name="radio1" value="headKnife"/>Head Knife
+                    </label>
+                    <label for="frenchKnife" class="radio-inline">
+                        <input type="radio" id="frenchKnife" name="radio1" value="frenchKnife"/>French Knife
+                    </label>
+                    <label for="choppingKnife" class="radio-inline">
+                        <input type="radio" id="choppingKnife" name="radio1" value="choppingKnife"/>Chopping Knife
+                    </label>
                 </div>
 
             </div>

@@ -6,7 +6,7 @@ var unanswered = 0;
 
 // Timer function
 
-
+console.log(correct);
 
 // Reset function
 
