@@ -26,7 +26,14 @@ body {
     font-weight: bold;
 }
  .textChoices {
+     background: red;
      text-align: center;
+     width: 70%;
      margin: 0 auto;
-     width: 500px;
+     /* padding-left: 25%; */
+ }
+
+ input {
+     float: left;
+     margin-left: 20px;
  }
