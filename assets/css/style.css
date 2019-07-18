@@ -26,14 +26,20 @@ body {
     font-weight: bold;
 }
  .textChoices {
-     background: red;
      text-align: center;
      width: 70%;
      margin: 0 auto;
-     /* padding-left: 25%; */
+     padding-left: 25%;
  }
+.radio-inline {
+    text-align: center;
+}
 
  input {
      float: left;
      margin-left: 20px;
- }
+     text-align: center;
+}
+.gameOverPage {
+    background: red;
+}
